@@ -3,7 +3,7 @@ from .graph import build_graph
 app = build_graph()
 
 result = app.invoke({
-    "question": "What is the square of the average of 10 and 5?"
+    "question": "Define AI."
 })
 
 print("\n\nResult for Tool-Using Agent:")
